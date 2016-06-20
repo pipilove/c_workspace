@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2F0C251F-4F85-4E74-B702-6074CC133354}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>POJ</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BOP\chess.cpp" />
+    <ClCompile Include="BOP\cpu.cpp" />
+    <ClCompile Include="BOP\divide.cpp" />
+    <ClCompile Include="BOP\elevatorSchedual.cpp" />
+    <ClCompile Include="BOP\MaxSubarraySum.cpp" />
+    <ClCompile Include="BOP\MaxSubmatrixSum.cpp" />
+    <ClCompile Include="BOP\NIM3.cpp" />
+    <ClCompile Include="BOP\结构 - 字符串及链表\PhoneNum.cpp" />
+    <ClCompile Include="calculate\cage.cpp" />
+    <ClCompile Include="calculate\chess.cpp" />
+    <ClCompile Include="calculate\encase.c" />
+    <ClCompile Include="calculate\wordFill.cpp" />
+    <ClCompile Include="CCF\cmdOpt.cpp" />
+    <ClCompile Include="CCF\FunnyNum.cpp" />
+    <ClCompile Include="CCF\ISBN.cpp" />
+    <ClCompile Include="CCF\LargestRectangle.cpp" />
+    <ClCompile Include="CCF\mostOftenNum.cpp" />
+    <ClCompile Include="CCF\RevNum.cpp" />
+    <ClCompile Include="CCF\Stuck.cpp" />
+    <ClCompile Include="CCF\windows.cpp" />
+    <ClCompile Include="justForTest.cpp" />
+    <ClCompile Include="mathematic\FunnyNum.cpp" />
+    <ClCompile Include="recursion\BiTree.cpp" />
+    <ClCompile Include="recursion\Fibonacci.cpp" />
+    <ClCompile Include="recursion\PolNote.cpp" />
+    <ClCompile Include="recursion\PutApple.cpp" />
+    <ClCompile Include="recursion\RedBlack.cpp" />
+    <ClCompile Include="simulation\Jonse.cpp" />
+    <ClCompile Include="simulation\JonseList.cpp" />
+    <ClCompile Include="string\caesarCode.cpp" />
+    <ClCompile Include="string\charCount.c" />
+    <ClCompile Include="string\phoneNum.cpp" />
+    <ClCompile Include="string\subStr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BOP\elevatorSchedual.txt" />
+    <None Include="calculate\encase_input.txt" />
+    <None Include="CCF\cmdOpt.in" />
+    <None Include="CCF\FunnyNum.in" />
+    <None Include="CCF\isbn.in" />
+    <None Include="CCF\largestRectangle.in" />
+    <None Include="CCF\largestRectangle1.in" />
+    <None Include="CCF\mostOftenNum.in" />
+    <None Include="CCF\Stuck.in" />
+    <None Include="CCF\windows.in" />
+    <None Include="recursion\Fibonacci.txt" />
+    <None Include="recursion\PolNote.txt" />
+    <None Include="recursion\PutApple.txt" />
+    <None Include="recursion\RedBlack.txt" />
+    <None Include="simulation\Jonse.in" />
+    <None Include="string\caesarCode.txt" />
+    <None Include="string\charCount.txt" />
+    <None Include="string\phoneNum.txt" />
+    <None Include="string\subStr.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="string\StrRev.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

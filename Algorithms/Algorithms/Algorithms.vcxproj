@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{19E69734-166A-4972-95FA-136DF1BE2E5E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Algorithms</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\study\数据结构\数据结构实验\Graphviz程序命令行调用.docx">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="BasicDataStructure\Graphviz_2.28.0-Dot常用参数.txt" />
+    <None Include="BasicDataStructure\rbt arbitrary.bat" />
+    <None Include="BasicDataStructure\rbt.bat" />
+    <None Include="BasicDataStructure\stack_eva_exp.txt" />
+    <None Include="bst.gv" />
+    <None Include="bst.png" />
+    <None Include="in.txt" />
+    <None Include="out.txt" />
+    <None Include="seniorDesign&amp;Analysis\DP\MatrixMultiply.in" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicDataStructure\BST.h" />
+    <ClInclude Include="BasicDataStructure\HashTable.h" />
+    <ClInclude Include="BasicDataStructure\myDataStructDefine.h" />
+    <ClInclude Include="BasicDataStructure\RBTree.h" />
+    <ClInclude Include="seniorDesign&amp;Analysis\ActivitySelector.h" />
+    <ClInclude Include="seniorDesign&amp;Analysis\CutRod.h" />
+    <ClInclude Include="seniorDesign&amp;Analysis\LCS.h" />
+    <ClInclude Include="seniorDesign&amp;Analysis\OptimalBST.h" />
+    <ClInclude Include="seniorDesign&amp;Analysis\TableInsert.h" />
+    <ClInclude Include="sort&amp;select&amp;search\CountingSort.h" />
+    <ClInclude Include="sort&amp;select&amp;search\HeapSort.h" />
+    <ClInclude Include="sort&amp;select&amp;search\InsertionSort.h" />
+    <ClInclude Include="sort&amp;select&amp;search\mySortDefine.h" />
+    <ClInclude Include="sort&amp;select&amp;search\Partition.h" />
+    <ClInclude Include="sort&amp;select&amp;search\QuickSort.h" />
+    <ClInclude Include="sort&amp;select&amp;search\RadixSort.h" />
+    <ClInclude Include="sort&amp;select&amp;search\RandomizedSelect.h" />
+    <ClInclude Include="sort&amp;select\CountingSort.h" />
+    <ClInclude Include="sort&amp;select\HeapSort.h" />
+    <ClInclude Include="sort&amp;select\InsertionSort.h" />
+    <ClInclude Include="sort&amp;select\mySortDefine.h" />
+    <ClInclude Include="sort&amp;select\Partition.h" />
+    <ClInclude Include="sort&amp;select\QuickSort.h" />
+    <ClInclude Include="sort&amp;select\RadixSort.h" />
+    <ClInclude Include="sort&amp;select\RandomizedSelect.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BasicDataStructure\bitField.cpp" />
+    <ClCompile Include="BasicDataStructure\BiTree.cpp" />
+    <ClCompile Include="BasicDataStructure\BST.cpp" />
+    <ClCompile Include="BasicDataStructure\HashTable.cpp" />
+    <ClCompile Include="BasicDataStructure\RBTree.cpp" />
+    <ClCompile Include="BasicDataStructure\Stack%28old%29.cpp" />
+    <ClCompile Include="BasicDataStructure\Stack(char).cpp" />
+    <ClCompile Include="BasicDataStructure\Stack(int).cpp" />
+    <ClCompile Include="BasicDataStructure\StructTestMain.cpp" />
+    <ClCompile Include="justForTest.cpp" />
+    <ClCompile Include="RecursionDivCon\IntDiv.cpp" />
+    <ClCompile Include="seniorDesign&amp;Analysis\ActivitySelector.cpp" />
+    <ClCompile Include="seniorDesign&amp;Analysis\CutRod.cpp" />
+    <ClCompile Include="seniorDesign&amp;Analysis\DP\MatrixMultiply.cpp" />
+    <ClCompile Include="seniorDesign&amp;Analysis\DP\MatrixMultiply1.cpp" />
+    <ClCompile Include="seniorDesign&amp;Analysis\LCS.cpp" />
+    <ClCompile Include="seniorDesign&amp;Analysis\OptimalBST.cpp" />
+    <ClCompile Include="seniorDesign&amp;Analysis\SeniorTestMain.cpp" />
+    <ClCompile Include="seniorDesign&amp;Analysis\TableInsert.cpp" />
+    <ClCompile Include="seniorDesign&amp;Analysis\TraceBack\FlowShop.cpp" />
+    <ClCompile Include="sort&amp;select&amp;search\BinarySearch.cpp" />
+    <ClCompile Include="sort&amp;select&amp;search\CountingSort.cpp" />
+    <ClCompile Include="sort&amp;select&amp;search\HeapSort.cpp" />
+    <ClCompile Include="sort&amp;select&amp;search\InsertionSort.cpp" />
+    <ClCompile Include="sort&amp;select&amp;search\MinHeapSort.cpp" />
+    <ClCompile Include="sort&amp;select&amp;search\Partition.cpp" />
+    <ClCompile Include="sort&amp;select&amp;search\QuickSort.cpp" />
+    <ClCompile Include="sort&amp;select&amp;search\QuickSortForSameElement.cpp" />
+    <ClCompile Include="sort&amp;select&amp;search\RadixSort.cpp" />
+    <ClCompile Include="sort&amp;select&amp;search\RandomizedSelect.cpp" />
+    <ClCompile Include="sort&amp;select&amp;search\SortTestMain.cpp" />
+    <ClCompile Include="sort&amp;select&amp;search\TailRecursiveQuicksort.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

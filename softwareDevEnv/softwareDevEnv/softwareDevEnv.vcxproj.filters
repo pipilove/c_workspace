@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\chapter1">
+      <UniqueIdentifier>{958e7086-7011-4e7c-b301-d90ce8b22928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter2">
+      <UniqueIdentifier>{4f017233-4d4f-4bf5-be65-fc8c31c385d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\task">
+      <UniqueIdentifier>{7acbb07e-2fc1-4d7c-9741-8fb94586568c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter3">
+      <UniqueIdentifier>{827fc857-a83e-443d-84c8-531e67a50fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter4">
+      <UniqueIdentifier>{d9909009-9839-4d43-902d-76d0070040bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1-1newconstract.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-1newconstract0.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-2innerpoint.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-2pointer.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-2pointer2.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-3-10funcPointer.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-3funinvoke.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-3funinvokebig.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-3funinvokevbig.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-4array.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-4struct.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-5-2.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-5-1structAlign.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-8-2RelocAddr.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="2-2InfiniteLoop.cpp">
+      <Filter>源文件\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-3AllocateInt.cpp">
+      <Filter>源文件\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="task1.cpp">
+      <Filter>源文件\task</Filter>
+    </ClCompile>
+    <ClCompile Include="testStack.cpp">
+      <Filter>源文件\task</Filter>
+    </ClCompile>
+    <ClCompile Include="1-8-1GlobalVarvalue.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="testDllReloc.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="task1-1.cpp">
+      <Filter>源文件\task</Filter>
+    </ClCompile>
+    <ClCompile Include="testProgram.cpp">
+      <Filter>源文件\task</Filter>
+    </ClCompile>
+    <ClCompile Include="paraisstruct.cpp">
+      <Filter>源文件\task</Filter>
+    </ClCompile>
+    <ClCompile Include="myprogram_load\myprogram_load.cpp">
+      <Filter>源文件\task</Filter>
+    </ClCompile>
+    <ClCompile Include="1-8-2RelocFunpointer.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="2-1helloworld.cpp">
+      <Filter>源文件\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="myprogram_load2.cpp">
+      <Filter>源文件\task</Filter>
+    </ClCompile>
+    <ClCompile Include="Link.cpp">
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="setClass.cpp">
+      <Filter>源文件\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualFun.cpp">
+      <Filter>源文件\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="VirClass.cpp">
+      <Filter>源文件\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticFun.cpp">
+      <Filter>源文件\chapter4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myprogram_load\stuff.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

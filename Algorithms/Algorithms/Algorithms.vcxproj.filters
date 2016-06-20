@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\BasicDataStructure">
+      <UniqueIdentifier>{20f9e1f1-e52c-4554-888a-874cb7d5159b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BasicDataStructure">
+      <UniqueIdentifier>{d9609681-706e-4e5f-a062-47f2121a4b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\seniorDesign&amp;Analysis">
+      <UniqueIdentifier>{2138a645-37cb-48a0-89bb-a0b5c917ad33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\seniorDesign&amp;Analysis">
+      <UniqueIdentifier>{955bd174-67d4-49f1-88bd-42ce6dfdb16b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sort&amp;select">
+      <UniqueIdentifier>{0ecbbe95-3fd3-406a-a9ab-2e56c1f90200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RecursionDivCon">
+      <UniqueIdentifier>{04f4c448-7e08-409f-bd58-d7243f59614d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sort&amp;select&amp;search">
+      <UniqueIdentifier>{e7f7bc13-c0f7-439c-93bc-330d813b888e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\seniorDesign&amp;Analysis\DP">
+      <UniqueIdentifier>{acae7ad3-fdeb-45d2-8ee6-cb864edcdcd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\seniorDesign&amp;Analysis\TraceBack">
+      <UniqueIdentifier>{635272cf-ead6-4475-bb91-3c77d5b85526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\seniorDesign&amp;Analysis\Greedy">
+      <UniqueIdentifier>{9ff6d540-23cc-4adb-b59b-38ab20b436a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="out.txt">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="in.txt">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bst.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bst.gv">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BasicDataStructure\rbt arbitrary.bat">
+      <Filter>源文件\BasicDataStructure</Filter>
+    </None>
+    <None Include="BasicDataStructure\rbt.bat">
+      <Filter>源文件\BasicDataStructure</Filter>
+    </None>
+    <None Include="BasicDataStructure\stack_eva_exp.txt">
+      <Filter>源文件\BasicDataStructure</Filter>
+    </None>
+    <None Include="BasicDataStructure\Graphviz_2.28.0-Dot常用参数.txt">
+      <Filter>源文件\BasicDataStructure</Filter>
+    </None>
+    <None Include="..\..\..\study\数据结构\数据结构实验\Graphviz程序命令行调用.docx">
+      <Filter>源文件\BasicDataStructure</Filter>
+    </None>
+    <None Include="seniorDesign&amp;Analysis\DP\MatrixMultiply.in">
+      <Filter>源文件\seniorDesign&amp;Analysis\DP</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicDataStructure\BST.h">
+      <Filter>头文件\BasicDataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicDataStructure\myDataStructDefine.h">
+      <Filter>头文件\BasicDataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicDataStructure\RBTree.h">
+      <Filter>头文件\BasicDataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="seniorDesign&amp;Analysis\TableInsert.h">
+      <Filter>头文件\seniorDesign&amp;Analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="seniorDesign&amp;Analysis\ActivitySelector.h">
+      <Filter>头文件\seniorDesign&amp;Analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="seniorDesign&amp;Analysis\CutRod.h">
+      <Filter>头文件\seniorDesign&amp;Analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="seniorDesign&amp;Analysis\LCS.h">
+      <Filter>头文件\seniorDesign&amp;Analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="seniorDesign&amp;Analysis\OptimalBST.h">
+      <Filter>头文件\seniorDesign&amp;Analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select\RandomizedSelect.h">
+      <Filter>头文件\sort&amp;select</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select\CountingSort.h">
+      <Filter>头文件\sort&amp;select</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select\HeapSort.h">
+      <Filter>头文件\sort&amp;select</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select\InsertionSort.h">
+      <Filter>头文件\sort&amp;select</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select\mySortDefine.h">
+      <Filter>头文件\sort&amp;select</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select\Partition.h">
+      <Filter>头文件\sort&amp;select</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select\QuickSort.h">
+      <Filter>头文件\sort&amp;select</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select\RadixSort.h">
+      <Filter>头文件\sort&amp;select</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicDataStructure\HashTable.h">
+      <Filter>头文件\BasicDataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select&amp;search\Partition.h">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select&amp;search\QuickSort.h">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select&amp;search\RadixSort.h">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select&amp;search\RandomizedSelect.h">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select&amp;search\CountingSort.h">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select&amp;search\HeapSort.h">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select&amp;search\InsertionSort.h">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClInclude>
+    <ClInclude Include="sort&amp;select&amp;search\mySortDefine.h">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BasicDataStructure\BST.cpp">
+      <Filter>源文件\BasicDataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicDataStructure\RBTree.cpp">
+      <Filter>源文件\BasicDataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="seniorDesign&amp;Analysis\OptimalBST.cpp">
+      <Filter>源文件\seniorDesign&amp;Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="seniorDesign&amp;Analysis\TableInsert.cpp">
+      <Filter>源文件\seniorDesign&amp;Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicDataStructure\HashTable.cpp">
+      <Filter>源文件\BasicDataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursionDivCon\IntDiv.cpp">
+      <Filter>源文件\RecursionDivCon</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicDataStructure\BiTree.cpp">
+      <Filter>源文件\BasicDataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicDataStructure\Stack%28old%29.cpp">
+      <Filter>源文件\BasicDataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="justForTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicDataStructure\Stack(char).cpp">
+      <Filter>源文件\BasicDataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicDataStructure\Stack(int).cpp">
+      <Filter>源文件\BasicDataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="seniorDesign&amp;Analysis\SeniorTestMain.cpp">
+      <Filter>源文件\seniorDesign&amp;Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicDataStructure\StructTestMain.cpp">
+      <Filter>源文件\BasicDataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="sort&amp;select&amp;search\QuickSort.cpp">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClCompile>
+    <ClCompile Include="sort&amp;select&amp;search\QuickSortForSameElement.cpp">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClCompile>
+    <ClCompile Include="sort&amp;select&amp;search\RadixSort.cpp">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClCompile>
+    <ClCompile Include="sort&amp;select&amp;search\RandomizedSelect.cpp">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClCompile>
+    <ClCompile Include="sort&amp;select&amp;search\SortTestMain.cpp">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClCompile>
+    <ClCompile Include="sort&amp;select&amp;search\TailRecursiveQuicksort.cpp">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClCompile>
+    <ClCompile Include="sort&amp;select&amp;search\BinarySearch.cpp">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClCompile>
+    <ClCompile Include="sort&amp;select&amp;search\CountingSort.cpp">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClCompile>
+    <ClCompile Include="sort&amp;select&amp;search\HeapSort.cpp">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClCompile>
+    <ClCompile Include="sort&amp;select&amp;search\InsertionSort.cpp">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClCompile>
+    <ClCompile Include="sort&amp;select&amp;search\MinHeapSort.cpp">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClCompile>
+    <ClCompile Include="sort&amp;select&amp;search\Partition.cpp">
+      <Filter>源文件\sort&amp;select&amp;search</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicDataStructure\bitField.cpp">
+      <Filter>源文件\BasicDataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="seniorDesign&amp;Analysis\DP\MatrixMultiply1.cpp">
+      <Filter>源文件\seniorDesign&amp;Analysis\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="seniorDesign&amp;Analysis\DP\MatrixMultiply.cpp">
+      <Filter>源文件\seniorDesign&amp;Analysis\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="seniorDesign&amp;Analysis\TraceBack\FlowShop.cpp">
+      <Filter>源文件\seniorDesign&amp;Analysis\TraceBack</Filter>
+    </ClCompile>
+    <ClCompile Include="seniorDesign&amp;Analysis\ActivitySelector.cpp">
+      <Filter>源文件\seniorDesign&amp;Analysis\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="seniorDesign&amp;Analysis\CutRod.cpp">
+      <Filter>源文件\seniorDesign&amp;Analysis\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="seniorDesign&amp;Analysis\LCS.cpp">
+      <Filter>源文件\seniorDesign&amp;Analysis\DP</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

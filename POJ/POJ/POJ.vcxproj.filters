@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\string">
+      <UniqueIdentifier>{5ddcb1c3-5752-4442-8d90-9f40a43d6e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\calculate">
+      <UniqueIdentifier>{0907cede-6997-417e-a639-3e752370e0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\recursion">
+      <UniqueIdentifier>{cf6045e6-4df5-4142-938b-c83c8d218a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\CCF">
+      <UniqueIdentifier>{8f30fb0f-e5d8-4317-976e-a731c6bf4f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\string">
+      <UniqueIdentifier>{9080e290-907e-4308-a4ad-801ad6710120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\mathematic">
+      <UniqueIdentifier>{8d797351-3092-492d-a173-fd9c4572d564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BOP">
+      <UniqueIdentifier>{30e0b938-b46b-4684-ab11-5d7522a72449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\simulation">
+      <UniqueIdentifier>{cc8bf1b4-6a6d-4236-825f-c9dad39fdee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BOP\结构 - 字符串及链表">
+      <UniqueIdentifier>{c6dfd220-9c55-4c38-8042-492ea6ea8a87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="calculate\encase.c">
+      <Filter>源文件\calculate</Filter>
+    </ClCompile>
+    <ClCompile Include="calculate\wordFill.cpp">
+      <Filter>源文件\calculate</Filter>
+    </ClCompile>
+    <ClCompile Include="calculate\cage.cpp">
+      <Filter>源文件\calculate</Filter>
+    </ClCompile>
+    <ClCompile Include="calculate\chess.cpp">
+      <Filter>源文件\calculate</Filter>
+    </ClCompile>
+    <ClCompile Include="recursion\PutApple.cpp">
+      <Filter>源文件\recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="recursion\RedBlack.cpp">
+      <Filter>源文件\recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="recursion\BiTree.cpp">
+      <Filter>源文件\recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="recursion\Fibonacci.cpp">
+      <Filter>源文件\recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="recursion\PolNote.cpp">
+      <Filter>源文件\recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="string\charCount.c">
+      <Filter>源文件\string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\phoneNum.cpp">
+      <Filter>源文件\string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\subStr.cpp">
+      <Filter>源文件\string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\caesarCode.cpp">
+      <Filter>源文件\string</Filter>
+    </ClCompile>
+    <ClCompile Include="justForTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BOP\divide.cpp">
+      <Filter>源文件\BOP</Filter>
+    </ClCompile>
+    <ClCompile Include="BOP\elevatorSchedual.cpp">
+      <Filter>源文件\BOP</Filter>
+    </ClCompile>
+    <ClCompile Include="BOP\chess.cpp">
+      <Filter>源文件\BOP</Filter>
+    </ClCompile>
+    <ClCompile Include="BOP\cpu.cpp">
+      <Filter>源文件\BOP</Filter>
+    </ClCompile>
+    <ClCompile Include="BOP\MaxSubarraySum.cpp">
+      <Filter>源文件\BOP</Filter>
+    </ClCompile>
+    <ClCompile Include="BOP\MaxSubmatrixSum.cpp">
+      <Filter>源文件\BOP</Filter>
+    </ClCompile>
+    <ClCompile Include="mathematic\FunnyNum.cpp">
+      <Filter>源文件\mathematic</Filter>
+    </ClCompile>
+    <ClCompile Include="BOP\NIM3.cpp">
+      <Filter>源文件\BOP</Filter>
+    </ClCompile>
+    <ClCompile Include="simulation\Jonse.cpp">
+      <Filter>源文件\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="simulation\JonseList.cpp">
+      <Filter>源文件\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="BOP\结构 - 字符串及链表\PhoneNum.cpp">
+      <Filter>源文件\BOP\结构 - 字符串及链表</Filter>
+    </ClCompile>
+    <ClCompile Include="CCF\mostOftenNum.cpp">
+      <Filter>源文件\CCF</Filter>
+    </ClCompile>
+    <ClCompile Include="CCF\RevNum.cpp">
+      <Filter>源文件\CCF</Filter>
+    </ClCompile>
+    <ClCompile Include="CCF\windows.cpp">
+      <Filter>源文件\CCF</Filter>
+    </ClCompile>
+    <ClCompile Include="CCF\cmdOpt.cpp">
+      <Filter>源文件\CCF</Filter>
+    </ClCompile>
+    <ClCompile Include="CCF\ISBN.cpp">
+      <Filter>源文件\CCF</Filter>
+    </ClCompile>
+    <ClCompile Include="CCF\LargestRectangle.cpp">
+      <Filter>源文件\CCF</Filter>
+    </ClCompile>
+    <ClCompile Include="CCF\FunnyNum.cpp">
+      <Filter>源文件\CCF</Filter>
+    </ClCompile>
+    <ClCompile Include="CCF\Stuck.cpp">
+      <Filter>源文件\CCF</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="calculate\encase_input.txt">
+      <Filter>源文件\calculate</Filter>
+    </None>
+    <None Include="recursion\PolNote.txt">
+      <Filter>源文件\recursion</Filter>
+    </None>
+    <None Include="recursion\PutApple.txt">
+      <Filter>源文件\recursion</Filter>
+    </None>
+    <None Include="recursion\RedBlack.txt">
+      <Filter>源文件\recursion</Filter>
+    </None>
+    <None Include="recursion\Fibonacci.txt">
+      <Filter>源文件\recursion</Filter>
+    </None>
+    <None Include="string\charCount.txt">
+      <Filter>源文件\string</Filter>
+    </None>
+    <None Include="string\phoneNum.txt">
+      <Filter>源文件\string</Filter>
+    </None>
+    <None Include="string\subStr.txt">
+      <Filter>源文件\string</Filter>
+    </None>
+    <None Include="string\caesarCode.txt">
+      <Filter>源文件\string</Filter>
+    </None>
+    <None Include="BOP\elevatorSchedual.txt">
+      <Filter>源文件\BOP</Filter>
+    </None>
+    <None Include="simulation\Jonse.in">
+      <Filter>源文件\simulation</Filter>
+    </None>
+    <None Include="CCF\largestRectangle.in">
+      <Filter>源文件\CCF</Filter>
+    </None>
+    <None Include="CCF\largestRectangle1.in">
+      <Filter>源文件\CCF</Filter>
+    </None>
+    <None Include="CCF\mostOftenNum.in">
+      <Filter>源文件\CCF</Filter>
+    </None>
+    <None Include="CCF\windows.in">
+      <Filter>源文件\CCF</Filter>
+    </None>
+    <None Include="CCF\cmdOpt.in">
+      <Filter>源文件\CCF</Filter>
+    </None>
+    <None Include="CCF\isbn.in">
+      <Filter>源文件\CCF</Filter>
+    </None>
+    <None Include="CCF\FunnyNum.in">
+      <Filter>源文件\CCF</Filter>
+    </None>
+    <None Include="CCF\Stuck.in">
+      <Filter>源文件\CCF</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="string\StrRev.h">
+      <Filter>头文件\string</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

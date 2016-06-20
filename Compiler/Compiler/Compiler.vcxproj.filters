@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\lexAnlyzr">
+      <UniqueIdentifier>{0f7eb469-4272-454e-b660-de13e436f284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Parser">
+      <UniqueIdentifier>{324449d5-a382-4126-aa80-3794b145f92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LexAnlyzr">
+      <UniqueIdentifier>{fa452feb-b7b2-450a-8bb6-e3d77597c594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Parser">
+      <UniqueIdentifier>{9873440e-eaf8-47be-99a6-b22fdf22fd52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Concat.c">
+      <Filter>源文件\LexAnlyzr</Filter>
+    </ClCompile>
+    <ClCompile Include="SymTable.c">
+      <Filter>源文件\LexAnlyzr</Filter>
+    </ClCompile>
+    <ClCompile Include="Constant.c">
+      <Filter>源文件\LexAnlyzr</Filter>
+    </ClCompile>
+    <ClCompile Include="Digit.c">
+      <Filter>源文件\LexAnlyzr</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.c">
+      <Filter>源文件\LexAnlyzr</Filter>
+    </ClCompile>
+    <ClCompile Include="GetChar.c">
+      <Filter>源文件\LexAnlyzr</Filter>
+    </ClCompile>
+    <ClCompile Include="Getnbc.c">
+      <Filter>源文件\LexAnlyzr</Filter>
+    </ClCompile>
+    <ClCompile Include="GetStr.c">
+      <Filter>源文件\LexAnlyzr</Filter>
+    </ClCompile>
+    <ClCompile Include="Letter.c">
+      <Filter>源文件\LexAnlyzr</Filter>
+    </ClCompile>
+    <ClCompile Include="LexAnalyzer.c">
+      <Filter>源文件\LexAnlyzr</Filter>
+    </ClCompile>
+    <ClCompile Include="Reserve.c">
+      <Filter>源文件\LexAnlyzr</Filter>
+    </ClCompile>
+    <ClCompile Include="Retract.c">
+      <Filter>源文件\LexAnlyzr</Filter>
+    </ClCompile>
+    <ClCompile Include="Pro.c">
+      <Filter>源文件\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ParserMain.c">
+      <Filter>源文件\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Error1.c">
+      <Filter>源文件\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Advance.c">
+      <Filter>源文件\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="GetWordStruct.c">
+      <Filter>源文件\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="VarTable.c">
+      <Filter>源文件\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyFile.c">
+      <Filter>源文件\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteVarFun.c">
+      <Filter>源文件\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ProTable.c">
+      <Filter>源文件\Parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CateDef.h">
+      <Filter>头文件\lexAnlyzr</Filter>
+    </ClInclude>
+    <ClInclude Include="SymTable.h">
+      <Filter>头文件\lexAnlyzr</Filter>
+    </ClInclude>
+    <ClInclude Include="Concat.h">
+      <Filter>头文件\lexAnlyzr</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant.h">
+      <Filter>头文件\lexAnlyzr</Filter>
+    </ClInclude>
+    <ClInclude Include="Digit.h">
+      <Filter>头文件\lexAnlyzr</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>头文件\lexAnlyzr</Filter>
+    </ClInclude>
+    <ClInclude Include="GetChar.h">
+      <Filter>头文件\lexAnlyzr</Filter>
+    </ClInclude>
+    <ClInclude Include="Getnbc.h">
+      <Filter>头文件\lexAnlyzr</Filter>
+    </ClInclude>
+    <ClInclude Include="GetStr.h">
+      <Filter>头文件\lexAnlyzr</Filter>
+    </ClInclude>
+    <ClInclude Include="Letter.h">
+      <Filter>头文件\lexAnlyzr</Filter>
+    </ClInclude>
+    <ClInclude Include="Reserve.h">
+      <Filter>头文件\lexAnlyzr</Filter>
+    </ClInclude>
+    <ClInclude Include="Retract.h">
+      <Filter>头文件\lexAnlyzr</Filter>
+    </ClInclude>
+    <ClInclude Include="Error1.h">
+      <Filter>头文件\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Advance.h">
+      <Filter>头文件\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Pro.h">
+      <Filter>头文件\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="GetWordStruct.h">
+      <Filter>头文件\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="funhead.h">
+      <Filter>头文件\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="VarTable.h">
+      <Filter>头文件\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ProTable.h">
+      <Filter>头文件\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyFile.h">
+      <Filter>头文件\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteVarFun.h">
+      <Filter>头文件\Parser</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7127584F-7C36-48E4-A2C1-A74AE4C7DA77}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Compiler</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Advance.c" />
+    <ClCompile Include="Concat.c" />
+    <ClCompile Include="Constant.c" />
+    <ClCompile Include="CopyFile.c" />
+    <ClCompile Include="Digit.c" />
+    <ClCompile Include="Error.c" />
+    <ClCompile Include="Error1.c" />
+    <ClCompile Include="GetChar.c" />
+    <ClCompile Include="Getnbc.c" />
+    <ClCompile Include="GetStr.c" />
+    <ClCompile Include="GetWordStruct.c" />
+    <ClCompile Include="Letter.c" />
+    <ClCompile Include="LexAnalyzer.c" />
+    <ClCompile Include="ParserMain.c" />
+    <ClCompile Include="Pro.c" />
+    <ClCompile Include="ProTable.c" />
+    <ClCompile Include="Reserve.c" />
+    <ClCompile Include="Retract.c" />
+    <ClCompile Include="SymTable.c" />
+    <ClCompile Include="VarTable.c" />
+    <ClCompile Include="WriteVarFun.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Advance.h" />
+    <ClInclude Include="CateDef.h" />
+    <ClInclude Include="Concat.h" />
+    <ClInclude Include="Constant.h" />
+    <ClInclude Include="CopyFile.h" />
+    <ClInclude Include="Digit.h" />
+    <ClInclude Include="Error.h" />
+    <ClInclude Include="Error1.h" />
+    <ClInclude Include="funhead.h" />
+    <ClInclude Include="GetChar.h" />
+    <ClInclude Include="Getnbc.h" />
+    <ClInclude Include="GetStr.h" />
+    <ClInclude Include="GetWordStruct.h" />
+    <ClInclude Include="Letter.h" />
+    <ClInclude Include="Pro.h" />
+    <ClInclude Include="ProTable.h" />
+    <ClInclude Include="Reserve.h" />
+    <ClInclude Include="Retract.h" />
+    <ClInclude Include="SymTable.h" />
+    <ClInclude Include="VarTable.h" />
+    <ClInclude Include="WriteVarFun.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EpipeCpu", "EpipeCpu\EpipeCpu.vcxproj", "{81E41E14-E0BE-4019-8F7F-AC8A423658E2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "onlyfortest", "..\onlyfortest\onlyfortest\onlyfortest.vcxproj", "{67975B15-98B4-4692-90B1-4921C51DA5C7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithms", "..\Algorithms\Algorithms\Algorithms.vcxproj", "{19E69734-166A-4972-95FA-136DF1BE2E5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81E41E14-E0BE-4019-8F7F-AC8A423658E2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81E41E14-E0BE-4019-8F7F-AC8A423658E2}.Debug|Win32.Build.0 = Debug|Win32
+		{81E41E14-E0BE-4019-8F7F-AC8A423658E2}.Release|Win32.ActiveCfg = Release|Win32
+		{81E41E14-E0BE-4019-8F7F-AC8A423658E2}.Release|Win32.Build.0 = Release|Win32
+		{67975B15-98B4-4692-90B1-4921C51DA5C7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{67975B15-98B4-4692-90B1-4921C51DA5C7}.Debug|Win32.Build.0 = Debug|Win32
+		{67975B15-98B4-4692-90B1-4921C51DA5C7}.Release|Win32.ActiveCfg = Release|Win32
+		{67975B15-98B4-4692-90B1-4921C51DA5C7}.Release|Win32.Build.0 = Release|Win32
+		{19E69734-166A-4972-95FA-136DF1BE2E5E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{19E69734-166A-4972-95FA-136DF1BE2E5E}.Debug|Win32.Build.0 = Debug|Win32
+		{19E69734-166A-4972-95FA-136DF1BE2E5E}.Release|Win32.ActiveCfg = Release|Win32
+		{19E69734-166A-4972-95FA-136DF1BE2E5E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
